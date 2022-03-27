@@ -8,7 +8,7 @@ func main() {
 	var x = 10
 	fmt.Println(x)
 
-	//  var y = 15;  this will return compile error because y is not used , but can be overcome using underscore
+	//  e.g: var y = 15;  this will return compile error because y is not used , but can be overcome using underscore
 	var unused = "blank"
 	_ = unused
 
