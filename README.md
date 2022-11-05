@@ -124,3 +124,10 @@ fmt.Printf("hour type: %T\n", hour) // => hour type: uint
  
     
 ```
+
+## Command line arguments
+
+```go
+fmt.Printf("Arguments are %v and length of arguments are %d", os.Args,len(os.Args))
+//zero index is the go executable path
+```
