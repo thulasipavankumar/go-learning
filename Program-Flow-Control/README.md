@@ -17,3 +17,5 @@ if age>=18 {
 fmt.Printf("Arguments are %v and length of arguments are %d", os.Args,len(os.Args))
 //zero index is the go executable path
 ```
+
+## There is no while loop in go
