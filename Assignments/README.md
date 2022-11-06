@@ -25,3 +25,11 @@
 [Coding Exercise #1](https://go.dev/play/p/XtwKDHOGtZY)
 [Coding Exercise #2](https://go.dev/play/p/hyYTDDNKJRN)
 [Coding Exercise #3](https://go.dev/play/p/sEODAjsUkLQ)
+
+# Flow Control
+[Coding Exercise #1](https://go.dev/play/p/WmE4DQaIJnG)
+[Coding Exercise #2](https://go.dev/play/p/JOxTt4Rq4eX)
+[Coding Exercise #3](https://go.dev/play/p/v_7AdaD2N5o)
+[Coding Exercise #4](https://go.dev/play/p/iIgJsBwnKyJ)
+[Coding Exercise #5](https://go.dev/play/p/G_KjTewDpsz)
+[Coding Exercise #6](https://go.dev/play/p/lkx23BC3Ger)
