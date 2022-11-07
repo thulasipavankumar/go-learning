@@ -33,3 +33,8 @@
 [Coding Exercise #4](https://go.dev/play/p/iIgJsBwnKyJ)
 [Coding Exercise #5](https://go.dev/play/p/G_KjTewDpsz)
 [Coding Exercise #6](https://go.dev/play/p/lkx23BC3Ger)
+
+# Arrays
+[Coding Exercise #1](https://go.dev/play/p/xt0OqIyY6ND)
+[Coding Exercise #2](https://go.dev/play/p/jEGMkCOuXby)
+[Coding Exercise #3](https://go.dev/play/p/4jB1tEXNqUw)
