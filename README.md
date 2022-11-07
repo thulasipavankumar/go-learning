@@ -132,3 +132,23 @@ fmt.Printf("Arguments are %v and length of arguments are %d", os.Args,len(os.Arg
 //zero index is the go executable path
 ```
 ## There is no while loop in go
+
+## Arrays in go
+```go
+  even_numbers := [5]int{2,4,6,8,10}  //=> array with values
+  var numbers = [2]int{}    //=> array with empty declaration
+  currency := [...]string{"INR","USD","EUR"}  // => eelipsis operator for decalarion and initilization
+
+  muti_dimension_array := [2][3]int{
+		{1, 2, 3},
+		{4, 5, 6},
+	}
+
+  weekend := [7]bool{5: true, 6: true}   // keyed array
+
+   cities := [...]string{
+        5:        "Paris",
+        "London", // this is at index 6
+        1:        "NYC",
+    }
+```
