@@ -152,3 +152,8 @@ fmt.Printf("Arguments are %v and length of arguments are %d", os.Args,len(os.Arg
         1:        "NYC",
     }
 ```
+
+### slices
+```go
+ var number_slice []int
+```
