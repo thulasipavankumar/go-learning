@@ -38,3 +38,13 @@
 [Coding Exercise #1](https://go.dev/play/p/xt0OqIyY6ND)
 [Coding Exercise #2](https://go.dev/play/p/jEGMkCOuXby)
 [Coding Exercise #3](https://go.dev/play/p/4jB1tEXNqUw)
+
+# Slices
+[Coding Exercise #1](https://go.dev/play/p/FglvDwdZgyc)
+[Coding Exercise #2](https://go.dev/play/p/mS9d8OSvp_Q)
+[Coding Exercise #3](https://go.dev/play/p/V8k-NLpQv8N)
+[Coding Exercise #4](https://go.dev/play/p/qBIiQyjp2vn)
+[Coding Exercise #5](https://go.dev/play/p/1A8u-9ppqRv)
+[Coding Exercise #6](https://go.dev/play/p/QXLq7q7EnDp)
+[Coding Exercise #7](https://go.dev/play/p/M9o-CvgxfWJ)
+[Coding Exercise #8](https://go.dev/play/p/Dxt3RwOjhrm)

@@ -30,3 +30,21 @@ one = numbers[0:1]   //[1]
 
 ```
  
+
+
+ ```go
+ sequence := [5]int{1, 2, 3, 4, 5}
+	slice1, slice2 := sequence[:2], sequence[2:]
+	slice1[0] = 10  // sequence is also changed because backing array is same for slice1 and sequence
+	_ = slice2
+	fmt.Println(sequence)
+	fmt.Println(len(slice1), cap(slice1)) // len 2 , capacity 5
+	fmt.Println(len(slice2), cap(slice2)) // len 3 , capacity 4 because the slice is created from arr[2] index
+ ```
+
+### slice daclaration with len
+ ```go
+ friends := []string{"NAruto", "Sasuke", "Obito"}
+ yourFriends := make([]string, len(friends))
+ copy(yourFriends, friends)
+ ```
