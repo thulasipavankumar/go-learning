@@ -153,7 +153,11 @@ fmt.Printf("Arguments are %v and length of arguments are %d", os.Args,len(os.Arg
     }
 ```
 
-### slices
+### (slices)[https://go.dev/blog/slices]
 ```go
  var number_slice []int
+
+ factions:=[]string{"leaf village","sand village","Konohagakure"}
+
+ //Elements of a slice are stored in a backing array
 ```
