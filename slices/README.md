@@ -41,3 +41,10 @@ one = numbers[0:1]   //[1]
 	fmt.Println(len(slice1), cap(slice1)) // len 2 , capacity 5
 	fmt.Println(len(slice2), cap(slice2)) // len 3 , capacity 4 because the slice is created from arr[2] index
  ```
+
+### slice daclaration with len
+ ```go
+ friends := []string{"NAruto", "Sasuke", "Obito"}
+ yourFriends := make([]string, len(friends))
+ copy(yourFriends, friends)
+ ```

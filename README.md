@@ -153,7 +153,8 @@ fmt.Printf("Arguments are %v and length of arguments are %d", os.Args,len(os.Arg
     }
 ```
 
-### (slices)[https://go.dev/blog/slices]
+### Slices
+(more here)[https://go.dev/blog/slices]
 ```go
  var number_slice []int
 
@@ -161,3 +162,10 @@ fmt.Printf("Arguments are %v and length of arguments are %d", os.Args,len(os.Arg
 
  //Elements of a slice are stored in a backing array
 ```
+
+### slice daclaration with len
+ ```go
+ friends := []string{"NAruto", "Sasuke", "Obito"}
+ yourFriends := make([]string, len(friends))
+ copy(yourFriends, friends)
+ ```
