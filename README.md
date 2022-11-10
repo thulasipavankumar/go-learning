@@ -154,7 +154,7 @@ fmt.Printf("Arguments are %v and length of arguments are %d", os.Args,len(os.Arg
 ```
 
 ### Slices
-(more here)[https://go.dev/blog/slices]
+[more here](https://go.dev/blog/slices)
 ```go
  var number_slice []int
 
