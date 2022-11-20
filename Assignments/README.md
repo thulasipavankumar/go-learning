@@ -56,3 +56,8 @@
 [Coding Exercise #4](https://go.dev/play/p/zCckbPtulpK)
 [Coding Exercise #5](https://go.dev/play/p/EnAXTSgpcuR)
 [Coding Exercise #6](https://go.dev/play/p/phXOW0hqHph)
+
+# Maps
+[Coding Exercise #1](https://go.dev/play/p/f2GoGDq8YB2)
+[Coding Exercise #2](https://go.dev/play/p/zvNiqgj63TN)
+[Coding Exercise #3](https://go.dev/play/p/9b57oWvhThk)
