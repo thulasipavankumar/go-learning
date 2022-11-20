@@ -17,6 +17,7 @@ func main() {
 	var1, var2 := 'a', 'b'
 
 	fmt.Printf("%T,%d\n", var1, var2)
+	runes()
 }
 func runes() {
 	// characters or rune literals are expressed in Go by enclosing them in single quotes

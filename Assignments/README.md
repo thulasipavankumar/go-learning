@@ -48,3 +48,11 @@
 [Coding Exercise #6](https://go.dev/play/p/QXLq7q7EnDp)
 [Coding Exercise #7](https://go.dev/play/p/M9o-CvgxfWJ)
 [Coding Exercise #8](https://go.dev/play/p/Dxt3RwOjhrm)
+
+# Strings
+[Coding Exercise #1](https://go.dev/play/p/DcCnPBsNete)
+[Coding Exercise #2](https://go.dev/play/p/IkhWtiWyfsy)
+[Coding Exercise #3](https://go.dev/play/p/dl_YQhwyM5N)
+[Coding Exercise #4](https://go.dev/play/p/zCckbPtulpK)
+[Coding Exercise #5](https://go.dev/play/p/EnAXTSgpcuR)
+[Coding Exercise #6](https://go.dev/play/p/phXOW0hqHph)
