@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"strings"
 )
 
@@ -43,4 +44,5 @@ func keyed_elements() {
 	fmt.Println(strings.Repeat("#", 10))
 	weekend := [7]bool{5: true, 6: true}
 	fmt.Println(weekend)
+	fmt.Println("My favorite number is", rand.Intn(100))
 }
