@@ -169,3 +169,31 @@ fmt.Printf("Arguments are %v and length of arguments are %d", os.Args,len(os.Arg
  yourFriends := make([]string, len(friends))
  copy(yourFriends, friends)
  ```
+
+### Structs 
+```go
+type book struct {
+		title  string
+		author string
+		year   int
+	}
+	current_book := book{
+                      title:"The Subtle Art of Not Giving a F*ck", 
+                      author:"Mark Manson", 
+                      year: 2016,
+                  }
+  fmt.Printf("%+v\n", current_book)
+```
+
+### annonymus structs
+```go
+diana := struct {
+		firstName, lastName string
+		age                 int
+	}{
+		firstName: "Diana",
+		lastName:  "Muller",
+		age:       30,
+	}
+	fmt.Println(diana)
+```go
