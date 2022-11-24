@@ -68,5 +68,12 @@
 [Coding Exercise #2](https://go.dev/play/p/vKgKaW5z-tt)
 [Coding Exercise #3](https://go.dev/play/p/NCGPqRliqJO)
 [Coding Exercise #4](https://go.dev/play/p/egM1iHwt9x4)
-[Coding Exercise #5]()
-[Coding Exercise #6]()
+[Coding Exercise #5](https://go.dev/play/p/R7BtEd6QzyA)
+[Coding Exercise #6](https://go.dev/play/p/bn4zRL50-I6)
+
+# Structs
+#files
+[Coding Exercise #1](https://go.dev/play/p/YPob4Es0pA-)
+[Coding Exercise #2](https://go.dev/play/p/d8tDEnqLVtp)
+[Coding Exercise #3](https://go.dev/play/p/x9woySHHIJN)
+[Coding Exercise #4](https://go.dev/play/p/fqrFYQsvS39)
