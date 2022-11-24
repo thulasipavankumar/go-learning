@@ -61,3 +61,12 @@
 [Coding Exercise #1](https://go.dev/play/p/f2GoGDq8YB2)
 [Coding Exercise #2](https://go.dev/play/p/zvNiqgj63TN)
 [Coding Exercise #3](https://go.dev/play/p/9b57oWvhThk)
+
+
+#files
+[Coding Exercise #1](https://go.dev/play/p/KdGd94UVx2d)
+[Coding Exercise #2](https://go.dev/play/p/vKgKaW5z-tt)
+[Coding Exercise #3](https://go.dev/play/p/NCGPqRliqJO)
+[Coding Exercise #4](https://go.dev/play/p/egM1iHwt9x4)
+[Coding Exercise #5]()
+[Coding Exercise #6]()
