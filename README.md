@@ -197,3 +197,27 @@ diana := struct {
 	}
 	fmt.Println(diana)
 ```go
+
+### Functions
+```go
+func add(a, b int) (sum int) {
+    sum = a+b
+	return sum
+}
+
+```
+
+### anonymus functions with closures
+```go
+func increment(x int) func() int {
+    return func() int {
+        x++
+        return x
+    }
+}
+
+    a := increment(10)
+    fmt.Println(a()) // 11
+    fmt.Println(a()) // 12
+    fmt.Println(a()) // 13
+```
