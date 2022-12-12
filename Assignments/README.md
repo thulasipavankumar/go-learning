@@ -87,3 +87,8 @@
 [Coding Exercise #7](https://go.dev/play/p/ivIc51STkXd)
 [Coding Exercise #8](https://go.dev/play/p/AYsa9-UpwAe)
 [Coding Exercise #9](https://go.dev/play/p/T0tCQYd0N7w)
+
+# pointers
+[Coding Exercise #1](https://go.dev/play/p/3lepH6RhWK2)
+[Coding Exercise #2](https://go.dev/play/p/YpojtFv3FNu)
+[Coding Exercise #3](https://go.dev/play/p/t_vLzY1fOi2)
