@@ -221,3 +221,13 @@ func increment(x int) func() int {
     fmt.Println(a()) // 12
     fmt.Println(a()) // 13
 ```
+
+## swap values using pointers
+```go
+    x,y := 5.5,8.8
+    func swap(p1 *float64, p2 *float64) {
+
+	    *p1, *p2 = *p2, *p1
+    }
+    
+```
