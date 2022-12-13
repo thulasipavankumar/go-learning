@@ -24,7 +24,7 @@ func main() {
 	fmt.Printf("after change map %#v\n", m)
 }
 func changeSlice(s []int) {
-	for i := range s {
+	for _, i := range s {
 		s[i] += 1
 	}
 }
