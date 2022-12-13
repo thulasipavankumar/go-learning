@@ -54,7 +54,7 @@ func main() {
 ## Slices and map are always pass by pointer
 ```go
 func changeSlice(s []int) {
-	for i := range s {
+	for _,i := range s {
 		s[i] += 1
 	}
 }
