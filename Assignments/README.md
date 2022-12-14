@@ -92,3 +92,14 @@
 [Coding Exercise #1](https://go.dev/play/p/3lepH6RhWK2)
 [Coding Exercise #2](https://go.dev/play/p/YpojtFv3FNu)
 [Coding Exercise #3](https://go.dev/play/p/t_vLzY1fOi2)
+
+# Methods
+[Coding Exercise #1](https://go.dev/play/p/xnmfR07YywG)
+[Coding Exercise #2](https://go.dev/play/p/Ldic6TA2N5C)
+[Coding Exercise #3](https://go.dev/play/p/AbZTnxTH-Rb)
+[Coding Exercise #4](https://go.dev/play/p/CZd_powzaR5)
+
+# Interfaces
+[Coding Exercise #1](https://go.dev/play/p/-k6yGQAktNf)
+[Coding Exercise #2](https://go.dev/play/p/HyAfznjmx60)
+[Coding Exercise #3](https://go.dev/play/p/07RRHcrOZbM)
