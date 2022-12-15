@@ -231,3 +231,8 @@ func increment(x int) func() int {
     }
     
 ```
+
+## To detect data race(mutiple go routines modifying a value at same time) use "-race" arguemnt while running the go program
+```
+go run -race main.go
+```
