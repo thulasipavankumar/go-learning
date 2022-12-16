@@ -73,3 +73,63 @@ func main(){
 }
 
 ```
+
+## Go channels
+A Go channel is a communication mechanism that allows Goroutines to exchange data. When developers have numerous Goroutines running at the same time, channels are the most convenient way to communicate with each other.
+
+Developers often use these channels for notifications and managing concurrency in applications.
+
+`
+channels can also be uni-directional
+only_receving := make(<-chan string)
+only_sending := make(chan <- string)
+`
+use defer statement for closing channels , best practices
+`
+use defer close(channel) to postpone the closing of the channel
+`
+
+## Buffered channel
+```go
+package main
+ 
+import (
+    "fmt"
+    "time"
+)
+ 
+func main() {
+    c1 := make(chan int) //unbuffered channel
+ 
+    // Launching a goroutine
+    go func(c chan int) {
+        fmt.Println("func goroutine starts sending data into the channel")
+        c <- 10
+        fmt.Println("func goroutine after sending data into the channel")   // ==> this line is executed only after the data is recieved on the other side
+    }(c1) // calling the anonymous func and passing c1 as argument
+ 
+    fmt.Println("main goroutine sleeps for 2 seconds")
+    time.Sleep(time.Second * 2)
+ 
+    fmt.Println("main goroutine starts receiving data")
+    d := <-c1
+    fmt.Println("main goroutine received data:", d)
+ 
+    // we sleep for a second to give time to the goroutine to finish
+    time.Sleep(time.Second)
+ 
+    // After running the program we notice that the sender (the func goroutine) blocks on the channel
+    // until the receiver (the main goroutine) receives the data from the channel.
+}
+ 
+//** EXPECTED OUTPUT: **//
+// main goroutine sleeps for 2 seconds
+// func goroutine starts sending data into the channel
+// main goroutine starts receiving data
+// main goroutine received data: 10
+// func goroutine after sending data into the channel
+```
+
+## select in go routine
+` select is like a swtich but with channels`
+we say that the select statement is used when we want to wait on multiple go routines
