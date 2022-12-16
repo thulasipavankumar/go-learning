@@ -28,6 +28,5 @@ func main() {
 	}
 	wg.Wait()
 	fmt.Println(n)
-	_ = m
 
 }

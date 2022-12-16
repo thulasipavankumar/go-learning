@@ -73,3 +73,18 @@ func main(){
 }
 
 ```
+
+## Go channels
+A Go channel is a communication mechanism that allows Goroutines to exchange data. When developers have numerous Goroutines running at the same time, channels are the most convenient way to communicate with each other.
+
+Developers often use these channels for notifications and managing concurrency in applications.
+
+`
+channels can also be uni-directional
+only_receving := make(<-chan string)
+only_sending := make(chan <- string)
+`
+use defer statement for closing channels , best practices
+`
+use defer close(channel) to postpone the closing of the channel
+`
