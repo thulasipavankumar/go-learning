@@ -103,3 +103,10 @@
 [Coding Exercise #1](https://go.dev/play/p/-k6yGQAktNf)
 [Coding Exercise #2](https://go.dev/play/p/HyAfznjmx60)
 [Coding Exercise #3](https://go.dev/play/p/07RRHcrOZbM)
+
+# channels
+[Coding Exercise #1](https://go.dev/play/p/APXq5K8hslb)
+[Coding Exercise #2](https://go.dev/play/p/5OoK1BlxIHI)
+[Coding Exercise #3](https://go.dev/play/p/ieP4tm2RR_U)
+[Coding Exercise #4](https://go.dev/play/p/G9asHYdQ152)
+[Coding Exercise #5](https://go.dev/play/p/x8KES5n2Dp5)
