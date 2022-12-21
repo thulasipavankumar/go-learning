@@ -11,4 +11,7 @@ func main() {
 	num:=13
 	fmt.Println("This is main block")
 	fmt.Printf("Is the number %d prime: %v\n",num,local_arithmetic.IsPrime(num))
+	num = 10
+	fmt.Printf("Is the number %d prime: %v\n",num,git_arithmetic.IsPrime(num))
+	fmt.Printf("Factorial of %d is: %v\n",num,git_arithmetic.Factorial(num))
 }
